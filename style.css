@@ -135,7 +135,7 @@ header .carousel-inner .carousel-item {
 
 .counter .inner_counter {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/lightning_city.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/lightning_city.jpg");
   background-attachment: fixed;
   height: 20vw;
   color: #fff;
@@ -276,7 +276,7 @@ header .carousel-inner .carousel-item {
 
 #client_slider {
   padding: 4%;
-  background-image: url(/image/blue_bg.jpg);
+  background-image: url(image/blue_bg.jpg);
 }
 
 #client_slider .owl-carousel .owl-item img {
@@ -369,7 +369,7 @@ footer .content {
 
 footer .footer_content {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
   background-size: 100% 100%;
   height: 45vw;
   color: #fff;
@@ -662,7 +662,7 @@ footer .content h3 {
   }
   footer .footer_content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 70vw;
     color: #fff;
@@ -770,7 +770,7 @@ footer .content h3 {
   }
   footer .footer_content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 115vw;
     color: #fff;
@@ -868,7 +868,7 @@ footer .content h3 {
   }
   footer .footer_content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 125vw;
     color: #fff;

@@ -94,7 +94,7 @@ html, body {
 
 .parallax {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/headway-5QgIuuBxKwM-unsplash\ \(1\).jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/headway-5QgIuuBxKwM-unsplash\ \(1\).jpg");
     background-attachment: fixed;
     background-size: 100% 100%;
     height: 50vw;
@@ -137,7 +137,7 @@ footer .content {
 
 footer .footer_content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 45vw;
     color: #fff;
@@ -502,7 +502,7 @@ header .navbar {
     }
     footer .footer_content {
         width: 100%;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
         background-size: 100% 100%;
         height: 70vw;
         color: #fff;
@@ -610,7 +610,7 @@ header .navbar {
     }
     footer .footer_content {
         width: 100%;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
         background-size: 100% 100%;
         height: 115vw;
         color: #fff;
@@ -708,7 +708,7 @@ header .navbar {
     }
     footer .footer_content {
         width: 100%;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
         background-size: 100% 100%;
         height: 125vw;
         color: #fff;

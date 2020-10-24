@@ -9,7 +9,7 @@
 
 .testimonials {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/wide-angle.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/wide-angle.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
   height: 80vw;
@@ -125,7 +125,7 @@
 
 .parallax {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/yair-mejia-JZl0Bdrz8Ig-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/yair-mejia-JZl0Bdrz8Ig-unsplash.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
   height: 50vw;
@@ -263,7 +263,7 @@ html, body {
 /* Founder starts*/
 
 .founders {
-  background-image: url('/image/blue_bg.jpg');
+  background-image: url('image/blue_bg.jpg');
 }
 
 .founders>.container {
@@ -320,7 +320,7 @@ footer .content {
 
 footer .footer_content {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
   background-size: 100% 100%;
   height: 45vw;
   color: #fff;
@@ -649,7 +649,7 @@ header .navbar {
   }
   footer .footer_content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 70vw;
     color: #fff;
@@ -757,7 +757,7 @@ header .navbar {
   }
   footer .footer_content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 115vw;
     color: #fff;
@@ -855,7 +855,7 @@ header .navbar {
   }
   footer .footer_content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 125vw;
     color: #fff;
