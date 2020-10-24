@@ -50,7 +50,7 @@
 #client_slider {
   padding: 4%;
   margin-top: 10%;
-  background-image: url(image/blue_bg.jpg);
+  background-image: url(../image/blue_bg.jpg);
 }
 
 #client_slider .owl-carousel .owl-item img {
@@ -69,7 +69,7 @@
 
 .counter .inner_counter {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/lightning_city.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/lightning_city.jpg");
   background-attachment: fixed;
   height: 20vw;
   color: #fff;
@@ -207,7 +207,7 @@ html, body {
 
 .parallax {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/dylan-gillis-KdeqA3aTnBY-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/dylan-gillis-KdeqA3aTnBY-unsplash.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
   height: 50vw;
@@ -250,7 +250,7 @@ footer .content {
 
 footer .footer_content {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/empire_state_building.jpg');
   background-size: 100% 100%;
   height: 45vw;
   color: #fff;
@@ -546,7 +546,7 @@ header .navbar {
 @media only screen and (max-width:767px) {
   footer .content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 65vw;
   }
@@ -591,7 +591,7 @@ header .navbar {
   }
   footer .content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 100vw;
   }
@@ -656,7 +656,7 @@ header .navbar {
   }
   footer .content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 117vw;
   }
@@ -665,7 +665,7 @@ header .navbar {
 @media (max-width: 361px) {
   footer .content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 125vw;
   }
@@ -796,7 +796,7 @@ header .navbar {
   }
   footer .footer_content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 70vw;
     color: #fff;
@@ -904,7 +904,7 @@ header .navbar {
   }
   footer .footer_content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 115vw;
     color: #fff;
@@ -1002,7 +1002,7 @@ header .navbar {
   }
   footer .footer_content {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/empire_state_building.jpg');
     background-size: 100% 100%;
     height: 125vw;
     color: #fff;
