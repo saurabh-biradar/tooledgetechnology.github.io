@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Loading Animation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Raleway&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100");
+
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            font-family: 'Roboto';
+            background: #fff;
+        }
+
+        .loading {
+            position: absolute;
+            top: 43%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .logo {
+
+            text-align: center;
+            margin-bottom: 5%;
+        }
+
+        .progress-bar {
+            width: 235px;
+            height: 10px;
+            background: black;
+            border-radius: 13px;
+            padding: 3px;
+            box-sizing: border-box;
+        }
+
+        .progress {
+            width: 10px;
+            height: 6px;
+            background: orange;
+            border-radius: 13px;
+        }
+
+        .made_by h6 {
+            
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loading">
+        <div class="logo"><img src="/image/icon2.jpg" height="128px" width="128px"></div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <div class="made_by">
+            <h6 style="font-size: 11px;">This Website is made by <span style="font-size: 13px;color:#03a9f4">' Saurabh Biradar '
+                    </span></h6>
+        </div>
+    </div>
+    <script>
+        function progress() {
+
+            var progress = document.querySelector('.progress');
+            var per = 10;
+            var loading = setInterval(animate, 50);
+            function animate() {
+                if (per > 220) {
+                    clearInterval(loading);
+                } else {
+                    per = per + 20;
+                    progress.style.width = per + 'px';
+                }
+            }
+        }
+        progress();
+
+    </script>
+</body>
+
+</html>

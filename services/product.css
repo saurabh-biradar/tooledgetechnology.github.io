@@ -1,0 +1,118 @@
+html, body {
+    overflow-x: hidden;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#but{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.list-group {
+    grid-column: 1/4;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+.scrollspy-example {
+    height: 100vh;
+    grid-column: 4/13;
+    overflow-y: scroll;
+    padding: 0% 4%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.content {
+    grid-column: 6 span;
+    padding-left: 6%;
+    margin-bottom: 50%;
+}
+
+.list_img {
+    margin-top: 5%;
+    grid-column: 6 span;
+    height: auto;
+    width: 100%;
+}
+.list-item{
+    padding-top: 5%;
+    grid-column: 12 span;
+}
+.form-row .iti,.country-select{
+    width: 100%;
+}
+.form-row .iti--separate-dial-code .iti__selected-flag{
+    outline: none;
+    background-color: transparent;
+}
+.form-row .country-select .country-list{
+    width: 21.5vw;
+}
+.form-row .iti__country-list{
+    width: 330px;
+}
+@media only screen and (max-width:767px) {
+    .form-row .country-select .country-list,.iti__country-list{
+        width: 461px;
+    }
+    
+}
+@media only screen and (max-width:500px) {
+    .form-row .country-select .country-list,.iti__country-list{
+        width: 300px;
+    }
+    
+}
+@media only screen and (max-width:333px) {
+    .form-row .country-select .country-list,.iti__country-list{
+        width: auto;
+    }
+    
+}
+
+@media screen and (max-width:822px){
+    .content button {
+        
+        margin-top: 5%;
+       
+    }
+    .content {
+        grid-column: 12 span;
+        padding-left: 6%;
+        margin-bottom: 50%;
+    }
+    
+    .list_img {
+        margin-top: 5%;
+        grid-column: 12 span;
+        height: auto;
+        width: 50%;
+        justify-self: center;
+        margin-bottom: 15%;
+    }
+    .list-item{
+        padding-top: 5%;
+        grid-column: 12 span;
+        text-align: center;
+    }
+    #list-item-1{
+        margin-bottom: 5%;
+    }
+    .list-group {
+        display: none;
+    }
+    
+    .scrollspy-example {
+        height: 100vh;
+        grid-column: 12 span;
+        overflow-y: scroll;
+        padding: 0% 4%;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+}

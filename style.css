@@ -1,0 +1,1033 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.main_content {
+  display: none;
+  overflow-x: hidden;
+}
+
+/* header starts here */
+
+header .carousel-item>img {
+  filter: brightness(50%);
+}
+
+header {
+  margin-bottom: 10%;
+}
+
+header .carousel-inner {
+  height: 50vw;
+}
+
+.media_container .media {
+  margin-top: 60px;
+}
+
+.media_container .media-body h5, p {
+  margin-left: 10px;
+}
+
+.media_container .mt-0 {
+  font-family: 'Kalam', cursive;
+  font-size: 12px;
+}
+
+.media_container .mb-0 {
+  font-family: 'Grandstander', cursive;
+  font-size: 10px;
+}
+
+header .navbar {
+  background-color: rgba(187, 215, 241, 0.7);
+  border-color: transparent;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.nav-item {
+  margin-left: 60px;
+}
+
+header .carousel-inner .carousel-item {
+  height: 100vh;
+}
+
+.carousel-caption {
+  padding: 5%;
+  top: 20%;
+  text-align: left;
+}
+
+.carousel-caption h5 {
+  font-size: 6vw;
+  margin-bottom: .5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.carousel-caption p {
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 3vw;
+  text-transform: capitalize;
+}
+
+.carousel-indicators li {
+  background-color: #9e9e9e;
+}
+
+/* header ends here */
+
+/* Card-2 stars here */
+
+.card--2 {
+  margin-bottom: 5%;
+  padding: 2%;
+  margin: -10% 1% 0%;
+  width: 98%;
+  height: 48vw;
+  border: none;
+}
+
+#carousel_with_card .carousel-control-next {
+  display: none;
+}
+
+#carousel_with_card .carousel-control-prev {
+  display: none;
+}
+
+.card-title--2 {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 4vw;
+  margin-left: 2%;
+}
+
+.card-text--2 {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 2vw;
+}
+
+#carousel_with_card {
+  height: 54%;
+  align-self: center;
+}
+
+#carouselExampleFade {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Card-2 ends here */
+
+/* counter starts here */
+
+.counter {
+  margin-top: 2%;
+}
+
+.counter .inner_counter {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/lightning_city.jpg");
+  background-attachment: fixed;
+  height: 20vw;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 5%;
+  align-items: center;
+}
+
+#counter_1 {
+  grid-column: 3 span;
+  text-align: center;
+}
+
+#counter_2 {
+  grid-column: 3 span;
+  text-align: center;
+}
+
+#counter_3 {
+  grid-column: 3 span;
+  text-align: center;
+}
+
+#counter_4 {
+  grid-column: 3 span;
+  text-align: center;
+}
+
+/* counter ends here */
+
+/* what we do starts here */
+
+.what_we_do {
+  padding: 5%;
+}
+
+.what_we_do button {
+  display: none;
+}
+
+.what_we_do h2 {
+  color: #2196F3;
+  font-size: 3em;
+}
+
+.what_we_do h6 {
+  color: #03A9F4;
+  font-size: 1.6em;
+}
+
+.what_we_do h5.card-title {
+  font-size: 25px;
+}
+
+.what_we_do a {
+  text-decoration: none;
+  color: black;
+}
+
+.inner_text {
+  text-align: center;
+  font-family: 'Baloo Tammudu 2', cursive;
+  padding: 5%;
+}
+
+.what_we_do img {
+  width: 128px;
+  height: auto;
+  align-self: center;
+}
+
+.what_we_do .inner_card {
+  font-family: 'Baloo Tammudu 2', cursive;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.what_we_do .card:hover button {
+  display: inline-block;
+}
+
+.what_we_do .card:hover img {
+  transform: scale(1.3);
+}
+
+#card_no_1 {
+  padding: 5%;
+  grid-column: 4 span;
+  text-align: center;
+}
+
+#card_no_2 {
+  padding: 5%;
+  grid-column: 4 span;
+  text-align: center;
+}
+
+#card_no_3 {
+  padding: 5%;
+  grid-column: 4 span;
+  text-align: center;
+}
+
+#card_no_4 {
+  padding: 5%;
+  grid-column: 4 span;
+  text-align: center;
+}
+
+#card_no_5 {
+  padding: 5%;
+  grid-column: 4 span;
+  text-align: center;
+}
+
+#card_no_6 {
+  padding: 5%;
+  grid-column: 4 span;
+  text-align: center;
+}
+
+/* what we do ends here */
+
+/* client slider starts here */
+
+#client_slider h2 {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 2.5em;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  color: #2196F3;
+}
+
+#client_slider div#kirloskar_item {
+  margin-top: 7%;
+}
+
+#client_slider {
+  padding: 4%;
+  background-image: url(/image/blue_bg.jpg);
+}
+
+#client_slider .owl-carousel .owl-item img {
+  background: transparent;
+  display: inline-block;
+  width: 50%;
+}
+
+/* client slider ends here */
+
+/* get in touch starts here */
+
+.get_in_touch {
+  padding: 5%;
+}
+
+.get_in_touch h4 {
+  font-size: 2.5em;
+  font-family: 'Baloo Tammudu 2', cursive;
+  text-align: center;
+  padding: 5%;
+}
+
+.get_in_touch img {
+  width: 64px;
+  height: auto;
+  align-self: center;
+}
+
+.get_in_touch .inner_card {
+  font-family: 'Baloo Tammudu 2', cursive;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#card_no_1 {
+  padding: 5%;
+  grid-column: 4 span;
+  text-align: center;
+}
+
+#card_no_2 {
+  padding: 5%;
+  grid-column: 4 span;
+  text-align: center;
+}
+
+#card_no_3 {
+  padding: 5%;
+  grid-column: 4 span;
+  text-align: center;
+}
+
+/* get in touch ends here */
+
+/* form section starts here */
+
+.form-section {
+  margin-bottom: 0px;
+}
+
+.form-section .iti--separate-dial-code .iti__selected-flag {
+  outline: none;
+  background-color: transparent;
+}
+
+.form-section .iti, .country-select {
+  width: 100%;
+}
+
+.form-section h3 {
+  font-size: 2.5em;
+  font-family: 'Baloo Tammudu 2', cursive;
+  text-align: center;
+  padding: 5%;
+}
+
+/* form section ends here */
+
+/* footer starts here */
+
+footer {
+  position: relative;
+}
+
+footer .content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+footer .footer_content {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+  background-size: 100% 100%;
+  height: 45vw;
+  color: #fff;
+  padding: 5%;
+}
+
+footer .content h3 {
+  cursor: pointer;
+  font-size: 2.9vw;
+}
+
+#row_1 {
+  grid-column: 4 span;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+#row_1 .content_logo {
+  width: 80%;
+  height: auto;
+}
+
+#row_1 .content__img {
+  width: 63%;
+  height: auto;
+}
+
+#row_1 .content_logo {
+  grid-column: 3 span;
+}
+
+#row_1 h3 {
+  grid-column: 9 span;
+  font-size: 3.2vw;
+}
+
+#row_1 p {
+  grid-column: 12 span;
+  font-size: 1.3vw;
+  margin: 0%;
+  padding: 5% 0%;
+}
+
+#row_1 a {
+  grid-column: 2 span;
+}
+
+#row_2 {
+  grid-column: 6/8;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+#row_2 h3 {
+  grid-column: 12 span;
+}
+
+#row_2 span {
+  color: red;
+}
+
+#row_2 ul {
+  grid-column: 12 span;
+  font-size: 2vw;
+}
+
+#row_2 a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+
+#row_2 li {
+  list-style: none;
+  margin: 9% 0%;
+  position: relative;
+}
+
+.underline1::after {
+  width: 48%;
+  content: '';
+  position: absolute;
+  height: .05rem;
+  background: red;
+  left: 0;
+  bottom: 0;
+}
+
+.underline2::after {
+  width: 50%;
+  content: '';
+  position: absolute;
+  height: .05rem;
+  background: red;
+  left: 0;
+  bottom: 0;
+}
+
+.underline3::after {
+  width: 60%;
+  content: '';
+  position: absolute;
+  height: .05rem;
+  background: red;
+  left: 0;
+  bottom: 0;
+}
+
+.underline4::after {
+  width: 64%;
+  content: '';
+  position: absolute;
+  height: .05rem;
+  background: red;
+  left: 0;
+  bottom: 0;
+}
+
+.underline_center::after {
+  transform: scale(0, 1);
+  transform-origin: 0% 100%;
+  transition: transform 0.3s ease;
+}
+
+.underline_center:hover::after {
+  transform: scale(1, 1);
+}
+
+#row_3 {
+  display: none;
+  grid-column: 9/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+#row_3 img {
+  width: 9%;
+  height: auto;
+}
+
+#row_3 h3 {
+  grid-column: 12 span;
+}
+
+#row_3 ul {
+  grid-column: 12 span;
+  font-size: 2vw;
+}
+
+#row_3 .media-body :nth-child(1) {
+  margin-right: -10%;
+}
+
+.copyright {
+  position: absolute;
+  left: 0;
+  height: 4vw;
+  bottom: 0;
+  background-color: #02091d;
+  font-size: 1.5vw;
+}
+
+#conditions p {
+  color: cornflowerblue;
+}
+
+#conditions>p>a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.copyright .col-6 {
+  padding-top: 1%;
+  text-align: center;
+}
+
+.copyright .col-6>p {
+  margin: 0;
+  color: cornflowerblue;
+}
+
+/* footer ends here */
+
+/* media queries for carousel */
+
+@media only screen and (max-width:1450px) {
+  header .carousel-caption {
+    top: 11%;
+  }
+}
+
+@media only screen and (max-width:647px) and (min-width:390px) {
+  header .carousel-caption {
+    top: 5%;
+  }
+}
+
+@media only screen and (max-width:400px) and (min-width:300px) {
+  header .carousel-caption {
+    top: 1%;
+  }
+}
+
+@media only screen and (max-width:300px) {
+  #carouselExampleCaptions {
+    display: none;
+  }
+}
+
+/* media queries for media container */
+
+@media only screen and (max-width:767px) {
+  .media_container .media {
+    margin-bottom: 25px;
+    margin-left: 30%;
+  }
+  #icon {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width:992px) and (min-width:647px) {
+  .media_container .media {
+    margin-bottom: 25px;
+  }
+  #icon {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width:647px) and (min-width:390px) {
+  .media_container .media {
+    margin-bottom: 25px;
+    margin-left: 30%;
+  }
+  #icon {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width:400px) and (min-width:300px) {
+  .media_container .media {
+    margin-bottom: 25px;
+    margin-left: 30%;
+  }
+  #icon {
+    margin-left: 30%;
+  }
+}
+
+/* media queries for footer */
+
+@media only screen and (max-width:767px) {
+  .copyright .col-6 {
+    padding-top: 1%;
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .copyright .col-6>p {
+    padding-top: 1%;
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .underline1::after {
+    width: 40%;
+  }
+  .underline2::after {
+    width: 42%;
+  }
+  .underline3::after {
+    width: 55%;
+  }
+  .underline4::after {
+    width: 58%;
+  }
+  footer .content {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    height: 51vw;
+  }
+  footer ul {
+    margin: 0%;
+  }
+  footer .footer_content {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+    background-size: 100% 100%;
+    height: 70vw;
+    color: #fff;
+    padding: 5%;
+  }
+  footer .content h3 {
+    font-size: 2.9vw;
+  }
+  #row_1 .content_logo {
+    width: 55%;
+    height: auto;
+    margin-left: 1%;
+  }
+  #row_1 .content__img {
+    width: 45%;
+    height: auto;
+  }
+  #row_1 {
+    margin: 1% 0%;
+    grid-column: 12 span;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+  #row_1 .content_logo {
+    grid-column: 5/6;
+  }
+  #row_1 h3 {
+    grid-column: 7 span;
+    margin-top: 2%;
+    margin-left: -3%;
+    justify-self: start;
+  }
+  #row_1 p {
+    font-size: 1.8vw;
+    text-align: center;
+  }
+  #row_1 a:nth-child(4) {
+    grid-column: 5/6;
+  }
+  #row_1 a:nth-child(5) {
+    grid-column: 6/7;
+  }
+  #row_1 a:nth-child(6) {
+    grid-column: 7/8;
+  }
+  #row_1 a:nth-child(7) {
+    grid-column: 8/9;
+  }
+  #row_1 a:nth-child(8) {
+    grid-column: 9/10;
+  }
+  #row_2 {
+    margin: 6% 10% 0% 0%;
+    grid-column: 6 span;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+  #row_2 h3 {
+    grid-column: 7/12;
+  }
+  #row_2 ul {
+    margin-top: -20%;
+    grid-column: 7/12;
+  }
+  #row_2 li {
+    list-style: none;
+    margin: 5% 0%;
+  }
+  #row_3 {
+    margin: 6% 0% 0% 2%;
+    grid-column: 6 span;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-family: 'Baloo Tammudu 2', cursive;
+    justify-items: flex-start;
+  }
+  #row_3 img {
+    width: 5%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:593px) {
+  .underline1::after {
+    width: 18%;
+  }
+  .underline2::after {
+    width: 18%;
+  }
+  .underline3::after {
+    width: 23%;
+  }
+  .underline4::after {
+    width: 25%;
+  }
+  footer .content {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    height: 51vw;
+  }
+  footer ul {
+    margin: 0%;
+  }
+  footer .footer_content {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+    background-size: 100% 100%;
+    height: 115vw;
+    color: #fff;
+    padding: 5%;
+  }
+  footer .content h3 {
+    font-size: 2.9vw;
+  }
+  #row_1 .content_logo {
+    width: 55%;
+    height: auto;
+    margin-left: 1%;
+  }
+  #row_1 .content__img {
+    width: 45%;
+    height: auto;
+  }
+  #row_1 {
+    margin: 1% 0%;
+    grid-column: 12 span;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+  #row_1 .content_logo {
+    grid-column: 5/6;
+  }
+  #row_1 h3 {
+    grid-column: 7 span;
+    margin-top: 2%;
+    margin-left: -3%;
+    justify-self: start;
+  }
+  #row_1 p {
+    font-size: 1.8vw;
+    text-align: center;
+  }
+  #row_1 a:nth-child(4) {
+    grid-column: 5/6;
+  }
+  #row_1 a:nth-child(5) {
+    grid-column: 6/7;
+  }
+  #row_1 a:nth-child(6) {
+    grid-column: 7/8;
+  }
+  #row_1 a:nth-child(7) {
+    grid-column: 8/9;
+  }
+  #row_1 a:nth-child(8) {
+    grid-column: 9/10;
+  }
+  #row_2 {
+    margin: 6% 10% 0% 0%;
+    grid-column: 12 span;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+  #row_2 h3 {
+    grid-column: 12 span;
+    text-align: center;
+  }
+  #row_2 ul {
+    grid-column: 6/12;
+    margin: 0%;
+  }
+  #row_2 li {
+    list-style: none;
+    margin-bottom: 4%;
+  }
+  #row_3 {
+    margin: 6% 0% 0% 2%;
+    grid-column: 12 span;
+    margin-left: 36%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+  #row_3 img {
+    width: 5%;
+    height: auto;
+  }
+  #row_3 h3 {
+    grid-column: 12 span;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:400px) {
+  footer .content {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    height: 51vw;
+  }
+  footer .footer_content {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/empire_state_building.jpg');
+    background-size: 100% 100%;
+    height: 125vw;
+    color: #fff;
+    padding: 5%;
+  }
+}
+
+@media only screen and (max-width:300px) {
+  footer .footer_content {
+    display: none;
+  }
+  .form-section {
+    margin-bottom: 28px;
+  }
+}
+
+/* media queries for client section and counter section */
+
+@media (max-width: 849px) {
+  #client_slider h2 {
+    font-size: 2em;
+  }
+  #card_no_1 {
+    grid-column: 6 span;
+  }
+  #card_no_2 {
+    grid-column: 6 span;
+  }
+  #card_no_3 {
+    grid-column: 6 span;
+  }
+  #card_no_4 {
+    grid-column: 6 span;
+  }
+  #card_no_5 {
+    grid-column: 6 span;
+  }
+  #card_no_6 {
+    grid-column: 6 span;
+  }
+  .counter .inner_counter {
+    height: 50vw;
+  }
+  #counter_1 {
+    grid-column: 6 span;
+    text-align: center;
+  }
+  #counter_2 {
+    grid-column: 6 span;
+    text-align: center;
+  }
+  #counter_3 {
+    grid-column: 6 span;
+    text-align: center;
+  }
+  #counter_4 {
+    grid-column: 6 span;
+    text-align: center;
+  }
+}
+
+/* media queries for product section */
+
+@media (max-width: 854px) {
+  .what_we_do button {
+    display: inline-block;
+  }
+  #card_no_1 {
+    grid-column: 12 span;
+  }
+  #card_no_2 {
+    grid-column: 12 span;
+  }
+  #card_no_3 {
+    grid-column: 12 span;
+  }
+  #card_no_4 {
+    grid-column: 12 span;
+  }
+  #card_no_5 {
+    grid-column: 12 span;
+  }
+  #card_no_6 {
+    grid-column: 12 span;
+  }
+  .counter .inner_counter {
+    height: 140vw;
+  }
+  #counter_1 {
+    grid-column: 12 span;
+    text-align: center;
+  }
+  #counter_2 {
+    grid-column: 12 span;
+    text-align: center;
+  }
+  #counter_3 {
+    grid-column: 12 span;
+    text-align: center;
+  }
+  #counter_4 {
+    grid-column: 12 span;
+    text-align: center;
+  }
+}
+
+/* media queries for contact cards */
+
+@media only screen and (max-width:850px) {
+  #card_no_1 {
+    grid-column: 12 span;
+    text-align: center;
+  }
+  #card_no_2 {
+    grid-column: 12 span;
+    text-align: center;
+  }
+  #card_no_3 {
+    grid-column: 12 span;
+    text-align: center;
+  }
+}
+
+/* media queries for form country list */
+
+@media only screen and (max-width:910px) {
+  .form-section .country-select .country-list, .iti__country-list {
+    width: 370px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .form-section .country-select .country-list, .iti__country-list {
+    width: 461px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .form-section .country-select .country-list, .iti__country-list {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width:333px) {
+  .form-section .country-select .country-list, .iti__country-list {
+    width: auto;
+  }
+}
+
+/* media queries for about section */
+
+@media only screen and (max-width:950px) {
+  .counter {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .counter {
+    margin-top: 20%;
+  }
+}
