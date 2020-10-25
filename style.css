@@ -37,12 +37,12 @@ header .carousel-inner {
 }
 
 .media_container .mt-0 {
-  font-family: 'Kalam', cursive;
+  font-family: cursive;
+  font-weight: bold;
   font-size: 12px;
 }
 
 .media_container .mb-0 {
-  font-family: 'Grandstander', cursive;
   font-size: 10px;
 }
 
