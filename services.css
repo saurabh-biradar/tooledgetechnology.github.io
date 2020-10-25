@@ -10,16 +10,13 @@
 #project_slider h2 {
   font-family: 'Baloo Tammudu 2', cursive;
   margin-top: 10%;
-  font-size: 5vw;
-  color: #2196F3;
+  font-size: calc(2em + 2vw);
 }
 
 #project_slider h4 {
   font-family: 'Baloo Tammudu 2', cursive;
   margin-bottom: 4%;
-  font-size: 2.5vw;
-  color: #03A9F4;
-}
+  font-size: calc(1em + 1vw);}
 
 #project_slider {
   margin: 4% 0%;
@@ -37,10 +34,9 @@
 
 #client_slider h2 {
   font-family: 'Baloo Tammudu 2', cursive;
-  font-size: 50px;
+  font-size: calc(1.6em + 2vw);
   margin-top: 2%;
   margin-bottom: 6%;
-  color: #2196F3;
 }
 
 #client_slider div#kirloskar_item {
@@ -113,13 +109,11 @@
 }
 
 .what_we_do h2 {
-  color: #2196F3;
-  font-size: 5vw;
+  font-size: calc(2em + 2vw);
 }
 
 .what_we_do h6 {
-  color: #03A9F4;
-  font-size: 2.5vw;
+  font-size: calc(1em + 1vw);
 }
 
 .what_we_do h5.card-title {
@@ -210,7 +204,7 @@ html, body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/dylan-gillis-KdeqA3aTnBY-unsplash.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
-  height: 50vw;
+  height: calc(5em + 50vw);
 }
 
 .parallax-inner {
@@ -221,13 +215,13 @@ html, body {
   font-family: 'Grenze Gotisch', cursive;
   text-align: center;
   color: #FFF;
-  font-size: 10vw;
+  font-size: calc(3.5em + 3.5vw);
 }
 
 .parallax h3 {
   text-align: center;
   color: #FFF;
-  font-size: 2vw;
+  font-size: calc(1em + 1vw);
   font-family: 'Sansita Swashed', cursive;
 }
 
@@ -651,9 +645,7 @@ header .navbar {
 }
 
 @media (max-width: 495px) {
-  #client_slider h2 {
-    font-size: 20px !important;
-  }
+  
   footer .content {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
@@ -672,9 +664,7 @@ header .navbar {
 }
 
 @media (max-width: 849px) {
-  #client_slider h2 {
-    font-size: 30px;
-  }
+  
   #card_no_1 {
     grid-column: 6 span;
   }

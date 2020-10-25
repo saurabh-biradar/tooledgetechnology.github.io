@@ -178,13 +178,11 @@ header .carousel-inner .carousel-item {
 }
 
 .what_we_do h2 {
-  color: #2196F3;
-  font-size: 3em;
+  font-size: calc(2em + 2vw);
 }
 
 .what_we_do h6 {
-  color: #03A9F4;
-  font-size: 1.6em;
+  font-size: calc(1em + 1vw);
 }
 
 .what_we_do h5.card-title {
@@ -264,10 +262,9 @@ header .carousel-inner .carousel-item {
 
 #client_slider h2 {
   font-family: 'Baloo Tammudu 2', cursive;
-  font-size: 2.5em;
+  font-size: calc(1.6em + 2vw);
   margin-top: 2%;
   margin-bottom: 6%;
-  color: #2196F3;
 }
 
 #client_slider div#kirloskar_item {
@@ -294,7 +291,7 @@ header .carousel-inner .carousel-item {
 }
 
 .get_in_touch h4 {
-  font-size: 2.5em;
+  font-size: calc(2em + 2vw);
   font-family: 'Baloo Tammudu 2', cursive;
   text-align: center;
   padding: 5%;
@@ -348,7 +345,7 @@ header .carousel-inner .carousel-item {
 }
 
 .form-section h3 {
-  font-size: 2.5em;
+  font-size: calc(2em + 2vw);
   font-family: 'Baloo Tammudu 2', cursive;
   text-align: center;
   padding: 5%;
@@ -888,9 +885,7 @@ footer .content h3 {
 /* media queries for client section and counter section */
 
 @media (max-width: 849px) {
-  #client_slider h2 {
-    font-size: 2em;
-  }
+  
   #card_no_1 {
     grid-column: 6 span;
   }
