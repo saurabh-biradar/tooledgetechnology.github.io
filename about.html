@@ -111,7 +111,7 @@
       </div>
     </section>
 
-    <div class="card card--1 mb-3 " data-aos="fade-up" data-aos-offset="300">
+    <div class="card card--1 mb-3 " data-aos="fade-up" data-aos-offset="150">
       <div class="row no-gutters">
         <div class="col-6" id="card_img">
           <img src="image/annie-spratt-QckxruozjRg-unsplash.jpg" class="card-img img-fluid">
@@ -253,24 +253,24 @@
 
     <div class="team">
       <div class="inner_team">
-        <h3 data-aos="fade-right" data-aos-offset="100">Our Professional Team</h3>
+        <h3 data-aos="fade-right" data-aos-offset="150">Our Professional Team</h3>
       </div>
       <div class="card-deck card_deck">
-        <div class="card _card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-offset="150">
+        <div class="card _card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-offset="300">
           <img src="image/person1.jpg" class="card-img-top team_img rounded-lg">
           <div class="card-body _card-body">
             <h5 class="card-title">Richard Smith</h5>
             <p class="card-text">Project Engineer</p>
           </div>
         </div>
-        <div class="card _card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-offset="150">
+        <div class="card _card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-offset="300">
           <img src="image/person6.jpg" class="card-img-top team_img rounded-lg">
           <div class="card-body _card-body">
             <h5 class="card-title">Elizabeth Kennt</h5>
             <p class="card-text">Design Enginner</p>
           </div>
         </div>
-        <div class="card _card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-offset="150">
+        <div class="card _card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-offset="300">
           <img src="image/person2.jpg" class="card-img-top team_img rounded-lg">
           <div class="card-body _card-body">
             <h5 class="card-title">Marcus Stoines</h5>
@@ -391,10 +391,7 @@
         $(".main_content").fadeIn(1000);
 
         AOS.init({
-          disable: function () {
-            var maxWidth = 575;
-            return window.innerWidth < maxWidth;
-          }
+          duration: 1500,
         });
 
       });
