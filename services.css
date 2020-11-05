@@ -245,10 +245,10 @@ footer .content {
 }
 
 footer .footer_content {
+  height: 45vw;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
   background-size: 100% 100%;
-  height: 45vw;
   color: #fff;
   padding: 5%;
 }
@@ -539,35 +539,6 @@ header .navbar {
 }
 
 @media only screen and (max-width:767px) {
-  footer .content {
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
-    background-size: 100% 100%;
-    height: 65vw;
-  }
-  .content__img {
-    margin-top: 0%;
-    margin-left: 4%;
-    width: auto;
-    height: 40%;
-  }
-  #content_row {
-    justify-content: center;
-  }
-  .__row1 {
-    justify-content: center;
-  }
-  .__row1 h3 {
-    margin-right: -30%;
-    padding: 6%;
-  }
-  .row3_img {
-    width: 16px;
-    height: 16px;
-  }
-  .__row2>p {
-    margin-bottom: 10%;
-  }
   .copyright .col-6 {
     padding-top: 0%;
     font-size: 1.5vw;
@@ -583,83 +554,6 @@ header .navbar {
   }
   .team {
     height: 134vw;
-  }
-  footer .content {
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
-    background-size: 100% 100%;
-    height: 100vw;
-  }
-  .content__img {
-    margin-top: 0%;
-    margin-left: 4%;
-    width: auto;
-    height: 40%;
-  }
-  #content_row {
-    justify-content: center;
-  }
-  .__row1 {
-    justify-content: center;
-  }
-  .__row1 h3 {
-    margin-right: -30%;
-    padding: 6%;
-  }
-  .__row2 {
-    margin-top: 0px;
-    width: 100%;
-    align-items: center;
-  }
-  .__row2 {
-    margin-top: 0px;
-    padding: 4% 41%;
-  }
-  .__row2 h6 {
-    margin-bottom: 2%;
-  }
-  .__row2>p {
-    margin-bottom: 2%;
-    align-self: baseline;
-  }
-  .__row2>p>a {
-    font-size: 2.3vw;
-  }
-  .row3_img {
-    width: 16px;
-    height: 16px;
-  }
-  .__row3 {
-    margin-top: 0px;
-    padding: 0% 41%;
-  }
-  .__row3 h6 {
-    padding-left: 8%;
-  }
-  .__row3 p {
-    margin-right: -5%;
-  }
-  .copyright .col-6>p {
-    padding-top: 1%;
-    font-size: 1.5vw;
-  }
-}
-
-@media (max-width: 495px) {
-  footer .content {
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
-    background-size: 100% 100%;
-    height: 117vw;
-  }
-}
-
-@media (max-width: 361px) {
-  footer .content {
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
-    background-size: 100% 100%;
-    height: 125vw;
   }
 }
 
@@ -784,12 +678,7 @@ header .navbar {
     margin: 0%;
   }
   footer .footer_content {
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
-    background-size: 100% 100%;
     height: 70vw;
-    color: #fff;
-    padding: 5%;
   }
   footer .content h3 {
     font-size: 2.9vw;
@@ -892,12 +781,7 @@ header .navbar {
     margin: 0%;
   }
   footer .footer_content {
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
-    background-size: 100% 100%;
     height: 115vw;
-    color: #fff;
-    padding: 5%;
   }
   footer .content h3 {
     font-size: 2.9vw;
@@ -990,12 +874,7 @@ header .navbar {
     height: 51vw;
   }
   footer .footer_content {
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
-    background-size: 100% 100%;
     height: 125vw;
-    color: #fff;
-    padding: 5%;
   }
 }
 
@@ -1013,3 +892,9 @@ header .navbar {
     background-attachment: local;
   }
 }
+
+/* @media screen and (max-width: 480px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+} */

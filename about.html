@@ -391,7 +391,10 @@
         $(".main_content").fadeIn(1000);
 
         AOS.init({
-          duration: 1500
+          disable: function () {
+            var maxWidth = 575;
+            return window.innerWidth < maxWidth;
+          }
         });
 
       });
