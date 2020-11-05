@@ -441,13 +441,12 @@ footer .content h3 {
 }
 
 .media_container .mt-0 {
-  font-family: 'Kalam', cursive;
+  font-weight: bold;
   font-size: 12px;
   margin-left: 10px;
 }
 
 .media_container .mb-0 {
-  font-family: 'Grandstander', cursive;
   font-size: 10px;
   margin-left: 10px;
 }
