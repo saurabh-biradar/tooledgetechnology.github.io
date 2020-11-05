@@ -128,7 +128,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/yair-mejia-JZl0Bdrz8Ig-unsplash.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
-  height: 50vw;
+  height: calc(5em + 50vw);
   margin-bottom: 5%;
 }
 
@@ -140,13 +140,13 @@
   font-family: 'Grenze Gotisch', cursive;
   text-align: center;
   color: #FFF;
-  font-size: 10vw;
+  font-size: calc(3.5em + 3.5vw);
 }
 
 .parallax h3 {
   text-align: center;
   color: #FFF;
-  font-size: 2vw;
+  font-size: calc(1em + 1vw);
   font-family: 'Sansita Swashed', cursive;
 }
 
@@ -869,5 +869,11 @@ header .navbar {
   }
   .form-section {
     margin-bottom: 28px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .parallax {
+    background-attachment: local;
   }
 }

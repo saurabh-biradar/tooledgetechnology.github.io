@@ -97,7 +97,7 @@ html, body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/headway-5QgIuuBxKwM-unsplash\ \(1\).jpg");
     background-attachment: fixed;
     background-size: 100% 100%;
-    height: 50vw;
+    height: calc(5em + 50vw);
 }
 
 .parallax-inner {
@@ -108,14 +108,14 @@ html, body {
     font-family: 'Grenze Gotisch', cursive;
     text-align: center;
     color: #FFF;
-    font-size: 10vw;
+    font-size: calc(3.5em + 3.5vw);
 }
 
 .parallax h3 {
     font-family: 'Sansita Swashed', cursive;
     text-align: center;
     color: #FFF;
-    font-size: 2vw;
+    font-size: calc(1em + 1vw);
 }
 
 .parallax h3 span {
@@ -722,5 +722,11 @@ header .navbar {
     }
     .form-section {
         margin-bottom: 28px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .parallax {
+        background-attachment: local;
     }
 }

@@ -16,7 +16,8 @@
 #project_slider h4 {
   font-family: 'Baloo Tammudu 2', cursive;
   margin-bottom: 4%;
-  font-size: calc(1em + 1vw);}
+  font-size: calc(1em + 1vw);
+}
 
 #project_slider {
   margin: 4% 0%;
@@ -203,6 +204,7 @@ html, body {
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/dylan-gillis-KdeqA3aTnBY-unsplash.jpg");
   background-attachment: fixed;
+  background-position: center center;
   background-size: 100% 100%;
   height: calc(5em + 50vw);
 }
@@ -645,7 +647,6 @@ header .navbar {
 }
 
 @media (max-width: 495px) {
-  
   footer .content {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
@@ -664,7 +665,6 @@ header .navbar {
 }
 
 @media (max-width: 849px) {
-  
   #card_no_1 {
     grid-column: 6 span;
   }
@@ -1006,5 +1006,11 @@ header .navbar {
   }
   .form-section {
     margin-bottom: 28px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .parallax {
+    background-attachment: local;
   }
 }
