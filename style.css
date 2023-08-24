@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
 * {
   margin: 0;
   border: 0;
   padding: 0;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
@@ -32,7 +34,8 @@ header .carousel-inner {
   margin-top: 60px;
 }
 
-.media_container .media-body h5, p {
+.media_container .media-body h5,
+p {
   margin-left: 10px;
 }
 
@@ -339,7 +342,8 @@ header .carousel-inner .carousel-item {
   background-color: transparent;
 }
 
-.form-section .iti, .country-select {
+.form-section .iti,
+.country-select {
   width: 100%;
 }
 
@@ -427,7 +431,7 @@ footer .content h3 {
 }
 
 #row_2 span {
-  color: red;
+  color: white;
 }
 
 #row_2 ul {
@@ -452,7 +456,7 @@ footer .content h3 {
   content: '';
   position: absolute;
   height: .05rem;
-  background: red;
+  background: white;
   left: 0;
   bottom: 0;
 }
@@ -462,7 +466,7 @@ footer .content h3 {
   content: '';
   position: absolute;
   height: .05rem;
-  background: red;
+  background: white;
   left: 0;
   bottom: 0;
 }
@@ -472,7 +476,7 @@ footer .content h3 {
   content: '';
   position: absolute;
   height: .05rem;
-  background: red;
+  background: white;
   left: 0;
   bottom: 0;
 }
@@ -482,7 +486,7 @@ footer .content h3 {
   content: '';
   position: absolute;
   height: .05rem;
-  background: red;
+  background: white;
   left: 0;
   bottom: 0;
 }
@@ -586,6 +590,7 @@ footer .content h3 {
     margin-bottom: 25px;
     margin-left: 30%;
   }
+
   #icon {
     margin-left: 30%;
   }
@@ -595,6 +600,7 @@ footer .content h3 {
   .media_container .media {
     margin-bottom: 25px;
   }
+
   #icon {
     margin-left: 30%;
   }
@@ -605,6 +611,7 @@ footer .content h3 {
     margin-bottom: 25px;
     margin-left: 30%;
   }
+
   #icon {
     margin-left: 30%;
   }
@@ -615,6 +622,7 @@ footer .content h3 {
     margin-bottom: 25px;
     margin-left: 30%;
   }
+
   #icon {
     margin-left: 30%;
   }
@@ -640,23 +648,29 @@ footer .content h3 {
   .underline1::after {
     width: 40%;
   }
+
   .underline2::after {
     width: 42%;
   }
+
   .underline3::after {
     width: 55%;
   }
+
   .underline4::after {
     width: 58%;
   }
+
   footer .content {
     display: grid;
     grid-template-rows: repeat(12, 1fr);
     height: 51vw;
   }
+
   footer ul {
     margin: 0%;
   }
+
   footer .footer_content {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
@@ -665,18 +679,22 @@ footer .content h3 {
     color: #fff;
     padding: 5%;
   }
+
   footer .content h3 {
     font-size: 2.9vw;
   }
+
   #row_1 .content_logo {
     width: 55%;
     height: auto;
     margin-left: 1%;
   }
+
   #row_1 .content__img {
     width: 45%;
     height: auto;
   }
+
   #row_1 {
     margin: 1% 0%;
     grid-column: 12 span;
@@ -684,34 +702,43 @@ footer .content h3 {
     grid-template-columns: repeat(12, 1fr);
     font-family: 'Baloo Tammudu 2', cursive;
   }
+
   #row_1 .content_logo {
     grid-column: 5/6;
   }
+
   #row_1 h3 {
     grid-column: 7 span;
     margin-top: 2%;
     margin-left: -3%;
     justify-self: start;
   }
+
   #row_1 p {
     font-size: 1.8vw;
     text-align: center;
   }
+
   #row_1 a:nth-child(4) {
     grid-column: 5/6;
   }
+
   #row_1 a:nth-child(5) {
     grid-column: 6/7;
   }
+
   #row_1 a:nth-child(6) {
     grid-column: 7/8;
   }
+
   #row_1 a:nth-child(7) {
     grid-column: 8/9;
   }
+
   #row_1 a:nth-child(8) {
     grid-column: 9/10;
   }
+
   #row_2 {
     margin: 6% 10% 0% 0%;
     grid-column: 6 span;
@@ -719,17 +746,21 @@ footer .content h3 {
     grid-template-columns: repeat(12, 1fr);
     font-family: 'Baloo Tammudu 2', cursive;
   }
+
   #row_2 h3 {
     grid-column: 7/12;
   }
+
   #row_2 ul {
     margin-top: -20%;
     grid-column: 7/12;
   }
+
   #row_2 li {
     list-style: none;
     margin: 5% 0%;
   }
+
   #row_3 {
     margin: 6% 0% 0% 2%;
     grid-column: 6 span;
@@ -738,6 +769,7 @@ footer .content h3 {
     font-family: 'Baloo Tammudu 2', cursive;
     justify-items: flex-start;
   }
+
   #row_3 img {
     width: 5%;
     height: auto;
@@ -748,23 +780,29 @@ footer .content h3 {
   .underline1::after {
     width: 18%;
   }
+
   .underline2::after {
     width: 18%;
   }
+
   .underline3::after {
     width: 23%;
   }
+
   .underline4::after {
     width: 25%;
   }
+
   footer .content {
     display: grid;
     grid-template-rows: repeat(12, 1fr);
     height: 51vw;
   }
+
   footer ul {
     margin: 0%;
   }
+
   footer .footer_content {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
@@ -773,18 +811,22 @@ footer .content h3 {
     color: #fff;
     padding: 5%;
   }
+
   footer .content h3 {
     font-size: 2.9vw;
   }
+
   #row_1 .content_logo {
     width: 55%;
     height: auto;
     margin-left: 1%;
   }
+
   #row_1 .content__img {
     width: 45%;
     height: auto;
   }
+
   #row_1 {
     margin: 1% 0%;
     grid-column: 12 span;
@@ -792,34 +834,43 @@ footer .content h3 {
     grid-template-columns: repeat(12, 1fr);
     font-family: 'Baloo Tammudu 2', cursive;
   }
+
   #row_1 .content_logo {
     grid-column: 5/6;
   }
+
   #row_1 h3 {
     grid-column: 7 span;
     margin-top: 2%;
     margin-left: -3%;
     justify-self: start;
   }
+
   #row_1 p {
     font-size: 1.8vw;
     text-align: center;
   }
+
   #row_1 a:nth-child(4) {
     grid-column: 5/6;
   }
+
   #row_1 a:nth-child(5) {
     grid-column: 6/7;
   }
+
   #row_1 a:nth-child(6) {
     grid-column: 7/8;
   }
+
   #row_1 a:nth-child(7) {
     grid-column: 8/9;
   }
+
   #row_1 a:nth-child(8) {
     grid-column: 9/10;
   }
+
   #row_2 {
     margin: 6% 10% 0% 0%;
     grid-column: 12 span;
@@ -827,18 +878,22 @@ footer .content h3 {
     grid-template-columns: repeat(12, 1fr);
     font-family: 'Baloo Tammudu 2', cursive;
   }
+
   #row_2 h3 {
     grid-column: 12 span;
     text-align: center;
   }
+
   #row_2 ul {
     grid-column: 6/12;
     margin: 0%;
   }
+
   #row_2 li {
     list-style: none;
     margin-bottom: 4%;
   }
+
   #row_3 {
     margin: 6% 0% 0% 2%;
     grid-column: 12 span;
@@ -847,10 +902,12 @@ footer .content h3 {
     grid-template-columns: repeat(12, 1fr);
     font-family: 'Baloo Tammudu 2', cursive;
   }
+
   #row_3 img {
     width: 5%;
     height: auto;
   }
+
   #row_3 h3 {
     grid-column: 12 span;
     text-align: center;
@@ -863,6 +920,7 @@ footer .content h3 {
     grid-template-rows: repeat(12, 1fr);
     height: 51vw;
   }
+
   footer .footer_content {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/empire_state_building.jpg');
@@ -877,6 +935,7 @@ footer .content h3 {
   footer .footer_content {
     display: none;
   }
+
   .form-section {
     margin-bottom: 28px;
   }
@@ -885,40 +944,50 @@ footer .content h3 {
 /* media queries for client section and counter section */
 
 @media (max-width: 849px) {
-  
+
   #card_no_1 {
     grid-column: 6 span;
   }
+
   #card_no_2 {
     grid-column: 6 span;
   }
+
   #card_no_3 {
     grid-column: 6 span;
   }
+
   #card_no_4 {
     grid-column: 6 span;
   }
+
   #card_no_5 {
     grid-column: 6 span;
   }
+
   #card_no_6 {
     grid-column: 6 span;
   }
+
   .counter .inner_counter {
     height: 50vw;
   }
+
   #counter_1 {
     grid-column: 6 span;
     text-align: center;
   }
+
   #counter_2 {
     grid-column: 6 span;
     text-align: center;
   }
+
   #counter_3 {
     grid-column: 6 span;
     text-align: center;
   }
+
   #counter_4 {
     grid-column: 6 span;
     text-align: center;
@@ -931,39 +1000,50 @@ footer .content h3 {
   .what_we_do button {
     display: inline-block;
   }
+
   #card_no_1 {
     grid-column: 12 span;
   }
+
   #card_no_2 {
     grid-column: 12 span;
   }
+
   #card_no_3 {
     grid-column: 12 span;
   }
+
   #card_no_4 {
     grid-column: 12 span;
   }
+
   #card_no_5 {
     grid-column: 12 span;
   }
+
   #card_no_6 {
     grid-column: 12 span;
   }
+
   .counter .inner_counter {
     height: 140vw;
   }
+
   #counter_1 {
     grid-column: 12 span;
     text-align: center;
   }
+
   #counter_2 {
     grid-column: 12 span;
     text-align: center;
   }
+
   #counter_3 {
     grid-column: 12 span;
     text-align: center;
   }
+
   #counter_4 {
     grid-column: 12 span;
     text-align: center;
@@ -977,10 +1057,12 @@ footer .content h3 {
     grid-column: 12 span;
     text-align: center;
   }
+
   #card_no_2 {
     grid-column: 12 span;
     text-align: center;
   }
+
   #card_no_3 {
     grid-column: 12 span;
     text-align: center;
@@ -990,25 +1072,33 @@ footer .content h3 {
 /* media queries for form country list */
 
 @media only screen and (max-width:910px) {
-  .form-section .country-select .country-list, .iti__country-list {
+
+  .form-section .country-select .country-list,
+  .iti__country-list {
     width: 370px;
   }
 }
 
 @media only screen and (max-width:767px) {
-  .form-section .country-select .country-list, .iti__country-list {
+
+  .form-section .country-select .country-list,
+  .iti__country-list {
     width: 461px;
   }
 }
 
 @media only screen and (max-width:500px) {
-  .form-section .country-select .country-list, .iti__country-list {
+
+  .form-section .country-select .country-list,
+  .iti__country-list {
     width: 300px;
   }
 }
 
 @media only screen and (max-width:333px) {
-  .form-section .country-select .country-list, .iti__country-list {
+
+  .form-section .country-select .country-list,
+  .iti__country-list {
     width: auto;
   }
 }

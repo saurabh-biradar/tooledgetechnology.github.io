@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
 * {
   margin: 0;
   border: 0;
@@ -190,7 +191,8 @@
 
 /* what we do ends here */
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -307,7 +309,7 @@ footer .content h3 {
 }
 
 #row_2 span {
-  color: red;
+  color: white;
 }
 
 #row_2 ul {
@@ -332,7 +334,7 @@ footer .content h3 {
   content: '';
   position: absolute;
   height: .05rem;
-  background: red;
+  background: white;
   left: 0;
   bottom: 0;
 }
@@ -342,7 +344,7 @@ footer .content h3 {
   content: '';
   position: absolute;
   height: .05rem;
-  background: red;
+  background: white;
   left: 0;
   bottom: 0;
 }
@@ -352,7 +354,7 @@ footer .content h3 {
   content: '';
   position: absolute;
   height: .05rem;
-  background: red;
+  background: white;
   left: 0;
   bottom: 0;
 }
@@ -362,7 +364,7 @@ footer .content h3 {
   content: '';
   position: absolute;
   height: .05rem;
-  background: red;
+  background: white;
   left: 0;
   bottom: 0;
 }
@@ -472,6 +474,7 @@ header .navbar {
     margin-bottom: 25px;
     margin-left: 30%;
   }
+
   #icon {
     margin-left: 30%;
   }
@@ -481,9 +484,11 @@ header .navbar {
   .media_container .media {
     margin-bottom: 25px;
   }
+
   #icon {
     margin-left: 30%;
   }
+
   .navbar-collapse {
     background-color: transparent;
     border-color: transparent;
@@ -502,6 +507,7 @@ header .navbar {
     margin-bottom: 25px;
     margin-left: 30%;
   }
+
   #icon {
     margin-left: 30%;
   }
@@ -512,9 +518,11 @@ header .navbar {
     margin-bottom: 25px;
     margin-left: 30%;
   }
+
   #icon {
     margin-left: 30%;
   }
+
   .card-body {
     padding: 0.25rem;
   }
@@ -524,15 +532,19 @@ header .navbar {
   .card-body {
     padding: 0.1rem;
   }
+
   .signature {
     display: none;
   }
+
   .__row1 {
     display: none;
   }
+
   .__row3 {
     display: none;
   }
+
   .__row2 {
     display: none;
   }
@@ -549,9 +561,11 @@ header .navbar {
   .testimonials {
     display: none;
   }
+
   .team ._card {
     height: 36vw;
   }
+
   .team {
     height: 134vw;
   }
@@ -561,36 +575,46 @@ header .navbar {
   #card_no_1 {
     grid-column: 6 span;
   }
+
   #card_no_2 {
     grid-column: 6 span;
   }
+
   #card_no_3 {
     grid-column: 6 span;
   }
+
   #card_no_4 {
     grid-column: 6 span;
   }
+
   #card_no_5 {
     grid-column: 6 span;
   }
+
   #card_no_6 {
     grid-column: 6 span;
   }
+
   .counter .inner_counter {
     height: 50vw;
   }
+
   #counter_1 {
     grid-column: 6 span;
     text-align: center;
   }
+
   #counter_2 {
     grid-column: 6 span;
     text-align: center;
   }
+
   #counter_3 {
     grid-column: 6 span;
     text-align: center;
   }
+
   #counter_4 {
     grid-column: 6 span;
     text-align: center;
@@ -601,39 +625,50 @@ header .navbar {
   .what_we_do button {
     display: inline-block;
   }
+
   #card_no_1 {
     grid-column: 12 span;
   }
+
   #card_no_2 {
     grid-column: 12 span;
   }
+
   #card_no_3 {
     grid-column: 12 span;
   }
+
   #card_no_4 {
     grid-column: 12 span;
   }
+
   #card_no_5 {
     grid-column: 12 span;
   }
+
   #card_no_6 {
     grid-column: 12 span;
   }
+
   .counter .inner_counter {
     height: 140vw;
   }
+
   #counter_1 {
     grid-column: 12 span;
     text-align: center;
   }
+
   #counter_2 {
     grid-column: 12 span;
     text-align: center;
   }
+
   #counter_3 {
     grid-column: 12 span;
     text-align: center;
   }
+
   #counter_4 {
     grid-column: 12 span;
     text-align: center;
@@ -660,38 +695,48 @@ header .navbar {
   .underline1::after {
     width: 40%;
   }
+
   .underline2::after {
     width: 42%;
   }
+
   .underline3::after {
     width: 55%;
   }
+
   .underline4::after {
     width: 58%;
   }
+
   footer .content {
     display: grid;
     grid-template-rows: repeat(12, 1fr);
     height: 51vw;
   }
+
   footer ul {
     margin: 0%;
   }
+
   footer .footer_content {
     height: 70vw;
   }
+
   footer .content h3 {
     font-size: 2.9vw;
   }
+
   #row_1 .content_logo {
     width: 55%;
     height: auto;
     margin-left: 1%;
   }
+
   #row_1 .content__img {
     width: 45%;
     height: auto;
   }
+
   #row_1 {
     margin: 1% 0%;
     grid-column: 12 span;
@@ -699,34 +744,43 @@ header .navbar {
     grid-template-columns: repeat(12, 1fr);
     font-family: 'Baloo Tammudu 2', cursive;
   }
+
   #row_1 .content_logo {
     grid-column: 5/6;
   }
+
   #row_1 h3 {
     grid-column: 7 span;
     margin-top: 2%;
     margin-left: -3%;
     justify-self: start;
   }
+
   #row_1 p {
     font-size: 1.8vw;
     text-align: center;
   }
+
   #row_1 a:nth-child(4) {
     grid-column: 5/6;
   }
+
   #row_1 a:nth-child(5) {
     grid-column: 6/7;
   }
+
   #row_1 a:nth-child(6) {
     grid-column: 7/8;
   }
+
   #row_1 a:nth-child(7) {
     grid-column: 8/9;
   }
+
   #row_1 a:nth-child(8) {
     grid-column: 9/10;
   }
+
   #row_2 {
     margin: 6% 10% 0% 0%;
     grid-column: 6 span;
@@ -734,17 +788,21 @@ header .navbar {
     grid-template-columns: repeat(12, 1fr);
     font-family: 'Baloo Tammudu 2', cursive;
   }
+
   #row_2 h3 {
     grid-column: 7/12;
   }
+
   #row_2 ul {
     margin-top: -20%;
     grid-column: 7/12;
   }
+
   #row_2 li {
     list-style: none;
     margin: 5% 0%;
   }
+
   #row_3 {
     margin: 6% 0% 0% 2%;
     grid-column: 6 span;
@@ -753,6 +811,7 @@ header .navbar {
     font-family: 'Baloo Tammudu 2', cursive;
     justify-items: flex-start;
   }
+
   #row_3 img {
     width: 5%;
     height: auto;
@@ -763,38 +822,48 @@ header .navbar {
   .underline1::after {
     width: 18%;
   }
+
   .underline2::after {
     width: 18%;
   }
+
   .underline3::after {
     width: 23%;
   }
+
   .underline4::after {
     width: 25%;
   }
+
   footer .content {
     display: grid;
     grid-template-rows: repeat(12, 1fr);
     height: 51vw;
   }
+
   footer ul {
     margin: 0%;
   }
+
   footer .footer_content {
     height: 115vw;
   }
+
   footer .content h3 {
     font-size: 2.9vw;
   }
+
   #row_1 .content_logo {
     width: 55%;
     height: auto;
     margin-left: 1%;
   }
+
   #row_1 .content__img {
     width: 45%;
     height: auto;
   }
+
   #row_1 {
     margin: 1% 0%;
     grid-column: 12 span;
@@ -802,34 +871,43 @@ header .navbar {
     grid-template-columns: repeat(12, 1fr);
     font-family: 'Baloo Tammudu 2', cursive;
   }
+
   #row_1 .content_logo {
     grid-column: 5/6;
   }
+
   #row_1 h3 {
     grid-column: 7 span;
     margin-top: 2%;
     margin-left: -3%;
     justify-self: start;
   }
+
   #row_1 p {
     font-size: 1.8vw;
     text-align: center;
   }
+
   #row_1 a:nth-child(4) {
     grid-column: 5/6;
   }
+
   #row_1 a:nth-child(5) {
     grid-column: 6/7;
   }
+
   #row_1 a:nth-child(6) {
     grid-column: 7/8;
   }
+
   #row_1 a:nth-child(7) {
     grid-column: 8/9;
   }
+
   #row_1 a:nth-child(8) {
     grid-column: 9/10;
   }
+
   #row_2 {
     margin: 6% 10% 0% 0%;
     grid-column: 12 span;
@@ -837,18 +915,22 @@ header .navbar {
     grid-template-columns: repeat(12, 1fr);
     font-family: 'Baloo Tammudu 2', cursive;
   }
+
   #row_2 h3 {
     grid-column: 12 span;
     text-align: center;
   }
+
   #row_2 ul {
     grid-column: 6/12;
     margin: 0%;
   }
+
   #row_2 li {
     list-style: none;
     margin-bottom: 4%;
   }
+
   #row_3 {
     margin: 6% 0% 0% 2%;
     grid-column: 12 span;
@@ -857,10 +939,12 @@ header .navbar {
     grid-template-columns: repeat(12, 1fr);
     font-family: 'Baloo Tammudu 2', cursive;
   }
+
   #row_3 img {
     width: 5%;
     height: auto;
   }
+
   #row_3 h3 {
     grid-column: 12 span;
     text-align: center;
@@ -873,6 +957,7 @@ header .navbar {
     grid-template-rows: repeat(12, 1fr);
     height: 51vw;
   }
+
   footer .footer_content {
     height: 125vw;
   }
@@ -882,6 +967,7 @@ header .navbar {
   footer .footer_content {
     display: none;
   }
+
   .form-section {
     margin-bottom: 28px;
   }
